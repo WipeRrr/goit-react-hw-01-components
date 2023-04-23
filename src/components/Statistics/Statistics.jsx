@@ -8,7 +8,11 @@ export const Statistics = ({ title, stats }) => {
 
       <ul className={css.stat_list}>
         {stats.map(stat => (
-          <li key={stat.id} className={css.item} style={{ backgroundColor: getRandomHexColor() }}>
+          <li
+            key={stat.id}
+            className={css.item}
+            style={{ backgroundColor: getRandomHexColor() }}
+          >
             <span className={css.label}>{stat.label}</span>
             <span className="percentage">{stat.percentage}%</span>
           </li>
@@ -25,7 +29,6 @@ Statistics.propTypes = {
     percentage: PropTypes.number.isRequired,
   }),
 };
-
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)

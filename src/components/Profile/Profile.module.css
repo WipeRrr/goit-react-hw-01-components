@@ -24,13 +24,6 @@ margin-bottom: 50px;
 }
  */
 
-
-
-
-
-
-
-
 .profile {
   display: flex;
   margin: auto;
@@ -39,7 +32,7 @@ margin-bottom: 50px;
   align-items: center;
   background-color: #fff;
   width: 320px;
-  
+
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
@@ -81,7 +74,7 @@ margin-bottom: 50px;
 
 .stats {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   width: 100%;
   background-color: #eee;
   border: 1px solid #d8d7d7;
@@ -101,20 +94,20 @@ margin-bottom: 50px;
   line-height: 1.25;
 }
 
-.stats li{
+.stats li {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 80px;
   padding: 10px;
-  
 }
 
-.stats li:not(:last-child){
+.stats li:not(:last-child) {
   border-right: 1px #d8d7d7 solid;
 }
 
-.avatar:hover,.avatar:focus{
+.avatar:hover,
+.avatar:focus {
   transform: scale(1.3);
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
